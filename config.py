@@ -46,7 +46,7 @@ SUPPORT_GROUP = getenv(
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
@@ -114,7 +114,7 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/75a6f636ab6704b6befd2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/d7d1aa481a647963d0c17.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
