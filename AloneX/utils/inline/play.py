@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     AloneX = math.floor(percentage)
     if 0 < AloneX <= 10:
-        bar = "⬤─────────"
+        bar = "⚪─────────"
     elif 10 < AloneX < 20:
-        bar = "━⬤────────"
+        bar = "━⚪────────"
     elif 20 <= AloneX < 30:
-        bar = "━━⬤───────"
+        bar = "━━⚪───────"
     elif 30 <= AloneX < 40:
-        bar = "━━━⬤──────"
+        bar = "━━━⚪──────"
     elif 40 <= AloneX < 50:
-        bar = "━━━━⬤─────"
+        bar = "━━━━⚪─────"
     elif 50 <= AloneX < 60:
-        bar = "━━━━━⬤────"
+        bar = "━━━━━⚪────"
     elif 60 <= AloneX < 70:
-        bar = "━━━━━━⬤───"
+        bar = "━━━━━━⚪───"
     elif 70 <= AloneX < 80:
-        bar = "━━━━━━━⬤──"
+        bar = "━━━━━━━⚪──"
     elif 80 <= AloneX < 95:
-        bar = "━━━━━━━━⬤─"
+        bar = "━━━━━━━━⚪─"
     else:
-        bar = "━━━━━━━━━⬤"
+        bar = "━━━━━━━━━⚪"
 
     buttons = [
         [
