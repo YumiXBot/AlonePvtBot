@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID",))
-API_HASH = getenv("API_HASH",)
+API_ID = int(getenv("API_ID", "11750847"))
+API_HASH = getenv("API_HASH" "f5d4acdc4880462886fa8a6b0d65d71b",)
 
-BOT_TOKEN = getenv("BOT_TOKEN",)
-
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAGwIoleDCYsC3EtamtsMBLcY0Jvo63U68Y")
+ 
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "1000")
@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""-1001603822916))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴧŁꪮɳᴇ ꭙ")
 
@@ -37,7 +37,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/YumiXBot/AlonePvtBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/AloneXBots")
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAYRIV3qXq3m1FAxBMdztIUOHwwDExkepJ-qFAAyz0lbUs48jpsmSaGBepzasm4Z6tfl80Ha0jE1E_dhFqWweeZXUxTAX5AInJGHXOM-8Xl_zXl8mlTNH3Wib-4EzTvjTl-sYkge31FqdIRhilty7w76NTxz0ytIM6-0X3DYY4BMwo9bENx4nr_rLHUidlJDRfPxq8Txigzao1lJBtpc1Vng7HU0iqWkYmNe9cNjHLAMXJGsokmAWxLVKgcVhxXLZn5W6Ash1QFVSgrYAu8ZhdbXhdMlbfeL7JqfegLYQk8gQQ1h0xRsj0aagT2NyoVvnpjuXmtlperbwqO_5tNRSFlasK9dAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
